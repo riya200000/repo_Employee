@@ -1,0 +1,84 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="date"],
+  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    height: 150px;
+  }
+  
+  .date-input-group {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .calendar-icon {
+    font-size: 20px;
+    cursor: pointer;
+    color: #007bff;
+  }
+  
+  .formatting-tools {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .formatting-button {
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+  
+  .btn-container {
+    text-align: center;
+  }
+  
+  .btn-cancel {
+    background-color: #ccc;
+  }
+  
+  .btn-save {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+  
